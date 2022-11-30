@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact Me.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <nav>
+        <a class="active" href="Index.html">Home</a>
+        <a href="Education.html">Education</a>
+        <a href="Work Experience.html">Work Experience</a>
+        <a href="Contact Me.html">Contact</a>
+    </nav>
+
+    <div class="container-all">
+        <div class="col-all">
+            <header>Contact Me</header>
+            
+            <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                
+                <label style="margin-right:250px;" for="younaem">Your Name</label>
+                <input type="text" id="youname" name="name" placeholder="Username" autofocus autocomplete="off"/> 
+
+                <label style="margin-right:260px;"  for="password">Password </label>
+                <input type="password" id="password" name="password" placeholder="password" autofocus />
+
+                <label style="margin-right:250px;"  for="email">Your E-mail </label>
+                <input type="email" id="email" name="email" placeholder="E-mail" autofocus autocomplete="off"/>
+
+                <label style="margin-right:270px;" for="cars">Gender</label>
+
+                <nav>
+                <input type="text" id="youname" name="name" placeholder="Gender" autofocus autocomplete="off"/> 
+                <select name="cars" id="cars">
+                  <option value=""></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                </nav>
+                <p style="margin-top: 10px;margin-bottom:5px;"><label  style="margin-right:270px;" for="Message">Message</label></p>
+                <textarea id="Message" name="Message" rows="4" cols="50">
+                </textarea>
+
+                <div class="col-buttom">
+                    <button type="submit">Send</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </form>
+        </div>        
+    </div>    
+</body>
+</html>

@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Playfair Display', serif;
+   font-family: 'Trirong', serif;
+}
+/* nav bar  */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+nav a:hover{
+    background-color: #111;
+    text-decoration: underline;
+}
+
+/* container all */
+.container-all{
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 117, 117);
+}
+/* container left  */
+.container-all .container-all-left{
+    width: 30%;
+}
+
+ /* left container top */
+.container-all-left .col-all-top{
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.container-all-left .col-all-top .row-picture{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background-color: #111;
+}
+.container-all-left .col-all-top .row-picture img{
+    width: 60%;
+    height: 40vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.col-all-top .row-picture .logo{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: auto;
+    padding: auto;
+    background-color: rgb(246, 151, 35);
+}
+.col-all-top .row-picture .logo header{
+    padding: 5px;
+    color: #111;
+}
+.col-all-top .row-education{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   background-color: rgb(33, 33, 33);
+}
+.col-all-top .row-education header{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
+}
+.col-all-top .row-education p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #fff;
+}
+ /* left container bottom */
+ .col-all-bottom{
+    width: 100%;
+    background-color: rgb(184, 184, 184);
+ }
+ .col-all-bottom .row-expertise{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 20px;
+ }
+ .col-all-bottom header{
+    color: #111;
+    font-size: 1.2rem;
+    padding: 20px;
+ }
+ .col-all-bottom .row-expertise .col-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .col-all-bottom .row-expertise .col-skill{
+    font-size: 0.8rem;
+    margin-top: 10px;
+ }
+ .col-all-bottom .row-expertise .col-skill p{
+    margin: 10px;
+ }
+.row-expertise .col-score{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 10px;
+}
+.row-expertise .col-score progress{
+   margin: 10px;
+}
+
+.row-contact{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.row-contact .contact-icon-left{
+    width: 30px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(243, 165, 71);
+    margin-bottom: 50px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+}
+.row-contact .contact-content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* container right */
+.container-all .container-all-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff(227, 40, 40);
+}
+.container-all-right .col-container-1{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(213, 213, 213);
+    padding: 20px;
+}
+.container-all-right .col-container-1 .row-name-top{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.col-container-1 .row-name-top .logo-right{
+    background-color: rgb(246, 151, 35);
+    width:150px;
+ }
+ .col-container-1 .row-name-top .logo-right header{
+    font-size: 0.5rem;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .col-container-1 .row-content-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+ }
+ .col-container-1 .row-content-bottom h1{
+    font-size: 1.2rem;
+    margin-top: 5px;
+ }
+ .col-container-1 .row-content-bottom p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+ }
+ .col-container-2 {
+   padding: 20px;
+   background-color: #fff;
+ }
+ .col-container-2  h1{
+    font-size: 1.5rem;
+ }
+ .col-container-2 .row-box-top{
+    margin-top: 10px;
+ }
+ .col-container-2 .row-box-top h3{
+    font-size: 1rem;
+    margin-top: 10px;
+ }
+ .col-container-2 .row-box-top p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+ }
+ .col-container-3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+ }
+ .col-container-3 .row-container-3{
+    display: flex;
+ }
+ .col-container-3 .row-container-3 h3{
+    font-size: 1.2rem;
+ }
+ .row-container-3 .row-container-3-left p{ 
+    margin-top: 5px;
+    font-size: 0.8rem;
+ }
+ .row-container-3 .row-container-3-right{
+    margin-left: 20px;
+ }
+ .row-container-3 .row-container-3-right p{
+    margin-top: 5px;
+    font-size: 0.8rem;
+ }
+ .col-container-4{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #fff;
+ }
+ .col-container-4  h3{
+    font-size: 1.2rem;
+    text-align: center;
+ }
+ .col-container-4 .row-icon-top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+ }
+ .col-container-4 .row-icon-top i{
+    font-size: 2rem;
+ }
+ .col-container-4 .row-content-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-size: 1rem;
+ }
